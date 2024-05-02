@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* outline: 1px red solid; */
+  box-sizing: border-box;
+}
+
+
+.accent {
+  accent-color: #2B9E76;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #888;
+} */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* background: #f1f1f1; */
+  background: #888;
+
+}
